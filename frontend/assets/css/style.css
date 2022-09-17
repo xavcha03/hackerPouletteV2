@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  color: #050401;
+  background-color: #FDFFFC;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.61em;
+  color: #AD2842;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  padding: 1em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6em;
+  width: 100%;
+}
+.form__submitBtn {
+  background-color: #7FAA32;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+.form input,
+.form textarea {
+  border: 2px solid #050401;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+}
+.form fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.form__inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.39em;
+}
+.form__infoMsg {
+  font-size: 0.81em;
+  color: #AD2842;
+}
+.form .imgToUploads__imgView {
+  display: flex;
+  flex-direction: column;
+  width: 3em;
+  gap: 0.62em;
+}
+.form .imgToUploads__imgView button {
+  background-color: transparent;
+  border: none;
+  color: #AD2842;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
