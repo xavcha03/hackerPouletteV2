@@ -52,9 +52,7 @@ function sanitizePOST()
 
 function processImages()
 {
-    foreach ($_FILES['images']['name'] as $key => $val) {
-        echo $key . "=>" . $val . "<br>";
-    }
+    
 
 
 

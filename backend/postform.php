@@ -6,7 +6,6 @@ $formDatas = sanitizePOST();
 
 $errors = errorsInForm($formDatas);
 
-var_dump($_POST);
 
 //S'il n'y a pas d'erreur de formulaire
 if (!$errors) {
