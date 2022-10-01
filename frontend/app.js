@@ -54,10 +54,11 @@ function imageValidation(e){
         //check types
         if(fileTypes.indexOf(files[i].type)!=-1 && files[i].size<2097152){
             filesBuffer.push(files[i])
+            document.querySelector("#image1").src = URL.createObjectURL(files[i]);
         }
     }
-    files = filesBuffer;
-    console.log(files);
+    e.target.files = filesBuffer;
+    console.log(e.target.files);
 }
 
 

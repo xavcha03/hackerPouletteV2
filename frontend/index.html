@@ -18,12 +18,12 @@
             <fieldset>
                 <div class="form__inputGroup">
                     <label for="firstName">First Name :</label>
-                    <input id="firstName" name="firstName" type="text" placeholder="Xavier" required pattern="[A-Za-z ]{2,255}">
+                    <input id="firstName" name="firstName" type="text" placeholder="Xavier" required >
                     <p id="firstNameErrMsg" class="form__infoMsg"></p>
                 </div>
                 <div class="form__inputGroup">
                     <label for="lastName">Last Name :</label>
-                    <input id="lastName" name="lastName" type="text" placeholder="Charles" required pattern="[A-Za-z ]{2,255}">
+                    <input id="lastName" name="lastName" type="text" placeholder="Charles" required >
                     <p id="lastNameErrMsg" class="form__infoMsg"></p>
                 </div>
                 <div class="form__inputGroup">
@@ -38,7 +38,7 @@
                     <input id="images" name="images[]" type="file" multiple>
                     <section class="imgToUploads">
                         <div class="imgToUploads__imgView">
-                            <img src="https://via.placeholder.com/48" alt="">
+                            <img id="image1" src="https://via.placeholder.com/48" alt="">
                             <button type="button">X</button>
                         </div>
                         
