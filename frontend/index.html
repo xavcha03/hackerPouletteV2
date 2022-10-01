@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./app.js" defer type="module"></script>
 
     
 </head>
@@ -18,17 +19,17 @@
                 <div class="form__inputGroup">
                     <label for="firstName">First Name :</label>
                     <input id="firstName" name="firstName" type="text" placeholder="Xavier" required pattern="[A-Za-z ]{2,255}">
-                    <p class="form__infoMsg">Error : First Name Can't have numbers</p>
+                    <p id="firstNameErrMsg" class="form__infoMsg"></p>
                 </div>
                 <div class="form__inputGroup">
                     <label for="lastName">Last Name :</label>
                     <input id="lastName" name="lastName" type="text" placeholder="Charles" required pattern="[A-Za-z ]{2,255}">
-                    <p class="form__infoMsg">Error : First Name Can't have numbers</p>
+                    <p id="lastNameErrMsg" class="form__infoMsg"></p>
                 </div>
                 <div class="form__inputGroup">
                     <label for="email">Email :</label>
                     <input id="email" name="email" type="email" placeholder="ch.xavier03@gmail.com">
-                    <p class="form__infoMsg">Error : First Name Can't have numbers</p>
+                    <p id="emailErrMsg" class="form__infoMsg"></p>
                 </div>
             </fieldset>
             <fieldset>

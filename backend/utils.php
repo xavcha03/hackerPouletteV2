@@ -52,9 +52,6 @@ function sanitizePOST()
 
 function processImages()
 {
-    
-
-
 
     var_dump($_FILES);
 }
