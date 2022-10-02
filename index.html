@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./app.js" defer type="module"></script>
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Form</h1>
+        <p>Contact form</p>
+        <form class="form" method="POST" action="postform.php" enctype="multipart/form-data">
+            <fieldset>
+                <div class="form__inputGroup">
+                    <label for="firstName">First Name :</label>
+                    <input id="firstName" name="firstName" type="text" placeholder="Xavier" required >
+                    <p id="firstNameErrMsg" class="form__infoMsg"></p>
+                </div>
+                <div class="form__inputGroup">
+                    <label for="lastName">Last Name :</label>
+                    <input id="lastName" name="lastName" type="text" placeholder="Charles" required >
+                    <p id="lastNameErrMsg" class="form__infoMsg"></p>
+                </div>
+                <div class="form__inputGroup">
+                    <label for="email">Email :</label>
+                    <input id="email" name="email" type="email" placeholder="ch.xavier03@gmail.com">
+                    <p id="emailErrMsg" class="form__infoMsg"></p>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class="form__inputGroup">
+                    <label for="images">Add images :</label>
+                    <input id="images" name="images[]" type="file" multiple accept=".jpg, .gif, .png">
+                    <p id="filesErrMsg" class="form__infoMsg"></p>
+                    
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                <div class="form__inputGroup">
+                    <label for="description">Description :</label>
+                    <textarea name="description"></textarea>
+                    <p class="form__infoMsg">Error : First Name Can't have numbers</p>
+                </div>
+            </fieldset>
+            <button class="form__submitBtn" type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
